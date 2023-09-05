@@ -1,0 +1,881 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+    <!-- Option 1: Include in HTML -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css"
+    />
+
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="top col-12">
+          <p class="text-white text-center py-2 m-0">
+            Sign up now & get 10% off on your 1st purchase : Use code
+            <strong>REEBOKFIRST10</strong>
+          </p>
+        </div>
+        <div class="col-12 d-flex justify-content-end pt-2 pe-4">
+          <p class="small_heading">contact Us</p>
+          <p class="small_heading ms-4 me-5">Track Order</p>
+        </div>
+
+        <!-- navbar -->
+
+        <nav class="navbar navbar-expand-lg bg-body-tertiary p-1">
+          <div class="container-fluid">
+            <!-- <a class="navbar-brand" href="#">Navbar</a> -->
+            <div class="mx-5 px-2">
+              <img src="./assets/RBK_D_logo.png" alt="" />
+            </div>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul id="menu" class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li id="item1" class="nav-item megabar-dropdown mx-2 d-inline">
+                  MEN
+                  <i id="bi-chevron-up1" class="bi bi-chevron-down mt-1"></i>
+                  <i class="bi bi-chevron-up fw-bolder mt-1"></i>
+
+                  <div
+                    id="dropdown1"
+                    class="dropdown-menu megabar"
+                    aria-labelledby="megabarDropdown"
+                  >
+                    <div class="row d-flex justify-content-between mx-5 pb-3">
+                      <div class="div_data col-sm-6 col-lg-2">
+                        <h6 class="my-3">FEATURED</h6>
+                        <p class="text-left my-2">Face Covers</p>
+                        <p class="text-left my-2">New Arrivals</p>
+                        <p class="text-left my-2">Zig</p>
+                        <p class="text-left my-2">InstaPump</p>
+                        <p class="text-left my-2">Club C</p>
+                        <p class="text-left my-2">Classic Leather</p>
+                        <p class="text-left my-2 text-danger">Sales</p>
+                      </div>
+                      <div class="div_data col-sm-6 col-lg-2">
+                        <h6 class="my-3">FOOTWEAR</h6>
+                        <p class="text-left my-2">Running</p>
+                        <p class="text-left my-2">Training</p>
+                        <p class="text-left my-2">Classics</p>
+                        <p class="text-left my-2">Walking</p>
+                        <p class="text-left my-2">Sandles & Slippers</p>
+                      </div>
+                      <div class="div_data col-sm-6 col-lg-2">
+                        <h6 class="my-3">CLOTHING</h6>
+                        <p class="text-left my-2">T- Shirts</p>
+                        <p class="text-left my-2">Polo Shirts</p>
+                        <p class="text-left my-2">Shorts</p>
+                        <p class="text-left my-2">Pants & SweatPants</p>
+                        <p class="text-left my-2">Hoodies & SweatShirst</p>
+                        <p class="text-left my-2">Jackets</p>
+                        <p class="text-left my-2">Tank Tops &Other Tees</p>
+                        <p class="text-left my-2">Comparison & Tights</p>
+                        <p class="text-left my-2">Tracksuits & Tracktops</p>
+                        <p class="text-left my-2">Classics</p>
+                      </div>
+                      <div class="div_data col-sm-6 col-lg-2">
+                        <h6 class="my-3">ACCESSORIES</h6>
+                        <p class="text-left my-2">Bags</p>
+                        <p class="text-left my-2">Face Covers</p>
+                        <p class="text-left my-2">Socks</p>
+                        <p class="text-left my-2">Caps</p>
+                        <p class="text-left my-2">
+                          Other Accesories & Water <br />
+                          Bottles
+                        </p>
+
+                        <p class="text-left my-2">Training Accesories</p>
+                        <p class="text-left my-2">Appreal Accesories</p>
+                      </div>
+                      <div class="div_data col-sm-6 col-lg-2">
+                        <h6 class="my-3">COLLABS</h6>
+
+                        <p class="text-left my-2">Float ride</p>
+                        <p class="text-left my-2">Zig</p>
+                        <p class="text-left my-2">InstaPump</p>
+                      </div>
+
+                      <div class="col-sm-6 col-lg-2">
+                        <h6 class="my-3">FEATURED COLLAB</h6>
+                        <img src="./assets/Menu_Reebok_men.webp" alt="" />
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li id="item2" class="nav-item megabar-dropdown mx-2 d-inline">
+                  WOMEN
+                  <i id="bi-chevron-up2" class="bi bi-chevron-down mt-1"></i>
+                  <i class="bi bi-chevron-up mt-1"></i>
+
+                  <div
+                    id="dropdown2"
+                    class="dropdown-menu megabar"
+                    aria-labelledby="megabarDropdown"
+                  >
+                    <div class="row d-flex justify-content-between mx-5 pb-3">
+                      <div class="div_data col-sm-6 col-lg-2">
+                        <h6 class="my-3">FEATURED</h6>
+                        <p class="text-left my-2">New Arrivals</p>
+                        <p class="text-left my-2">Womens Day Sale</p>
+                        <p class="text-left my-2">Zig</p>
+                        <p class="text-left my-2">InstaPump</p>
+                        <p class="text-left my-2">Club C</p>
+                        <p class="text-left my-2">Classic Leather</p>
+                        <p class="text-left my-2 text-danger">Sales</p>
+                      </div>
+                      <div class="div_data col-sm-6 col-lg-2">
+                        <h6 class="my-3">FOOTWEAR</h6>
+                        <p class="text-left my-2">Running</p>
+                        <p class="text-left my-2">Training</p>
+                        <p class="text-left my-2">Classics</p>
+                        <p class="text-left my-2">Walking</p>
+                        <p class="text-left my-2">Sandles & Slippers</p>
+                      </div>
+                      <div class="div_data col-sm-6 col-lg-2">
+                        <h6 class="my-3">CLOTHING</h6>
+                        <p class="text-left my-2">T- Shirts & Polo Shirts</p>
+                        <p class="text-left my-2">Leggings &Tights</p>
+                        <p class="text-left my-2">Sports Bras & Tank Tops</p>
+                        <p class="text-left my-2">Shorts</p>
+                        <p class="text-left my-2">Pants & SweatPants</p>
+                        <p class="text-left my-2">Hoodies & SweatShirst</p>
+                        <p class="text-left my-2">Jackets</p>
+                        <p class="text-left my-2">Tank Tops &Other Tees</p>
+                        <p class="text-left my-2">Comparison & Tights</p>
+                        <p class="text-left my-2">Tracksuits & Tracktops</p>
+                      </div>
+                      <div class="div_data col-sm-6 col-lg-2">
+                        <h6 class="my-3">ACCESSORIES</h6>
+                        <p class="text-left my-2">Bags</p>
+                        <p class="text-left my-2">Socks</p>
+                        <p class="text-left my-2">Caps</p>
+                        <p class="text-left my-2">
+                          Other Accesories & Water <br />
+                          Bottles
+                        </p>
+
+                        <p class="text-left my-2">Training Accesories</p>
+                        <p class="text-left my-2">Appreal Accesories</p>
+                      </div>
+                      <div class="div_data col-sm-6 col-lg-2">
+                        <h6 class="my-3">COLLABS</h6>
+
+                        <p class="text-left my-2">Zig</p>
+                        <p class="text-left my-2">InstaPump</p>
+                        <p class="text-left my-2">Classic Leather</p>
+                      </div>
+
+                      <div class="col-sm-6 col-lg-2 div_data">
+                        <h6 class="my-3">FEATURED COLLAB</h6>
+                        <img src="./assets/Menu_Reebok_women.webp" alt="" />
+                      </div>
+                    </div>
+                    <div
+                      class="nav_foot_data d-flex justify-content-evenly mx-5 pb-3"
+                    >
+                      <p class="text-left my-2">All Womens Footwear</p>
+                      <p class="text-left my-2">All Womens Clothing</p>
+                      <p class="text-left my-2">All Womens Accesories</p>
+                      <p class="text-left my-2">All Womens Products</p>
+                    </div>
+                  </div>
+                </li>
+                <li id="item3" class="nav-item megabar-dropdown mx-2 d-inline">
+                  KIDS
+                  <i id="bi-chevron-up3" class="bi bi-chevron-down mt-1"></i>
+                  <i class="bi bi-chevron-up mt-1"></i>
+
+                  <div
+                    id="dropdown3"
+                    class="dropdown-menu megabar"
+                    aria-labelledby="megabarDropdown"
+                  >
+                    <div class="row d-flex justify-content-between mx-5 pb-3">
+                      <div class="div_data col-sm-6 col-lg-3">
+                        <h6 class="my-3">FEATURED</h6>
+                        <p class="text-left my-2">Face Covers</p>
+
+                        <p class="text-left my-2 text-danger">Sales</p>
+                      </div>
+                      <div class="div_data col-sm-6 col-lg-3">
+                        <h6 class="my-3">BOYS</h6>
+                        <p class="text-left my-2">Footwear</p>
+                        <p class="text-left my-2">Accesories</p>
+                      </div>
+                      <div class="div_data col-sm-6 col-lg-3">
+                        <h6 class="my-3">GIRLS</h6>
+                        <p class="text-left my-2">Footwear</p>
+                        <p class="text-left my-2">All</p>
+                      </div>
+
+                      <div class="col-sm-6 col-lg-3">
+                        <h6 class="my-3">FEATURED COLLAB</h6>
+                        <img
+                          src="./assets/Menu_Reebok_women.webp"
+                          class="w-100"
+                          alt=""
+                        />
+                      </div>
+                    </div>
+                    <div
+                      class="nav_foot_data d-flex justify-content-evenly mx-5 pb-3"
+                    >
+                      <p class="text-left my-2">All Kids Footwear</p>
+                      <p class="text-left my-2">All Kids Clothing</p>
+                      <p class="text-left my-2">All Kids Accesories</p>
+                      <p class="text-left my-2">All Kids Products</p>
+                    </div>
+                  </div>
+                </li>
+                <li id="item4" class="nav-item megabar-dropdown mx-2 d-inline">
+                  SALES
+                  <i id="bi-chevron-up4" class="bi bi-chevron-down mt-1"></i>
+                  <i class="bi bi-chevron-up mt-1"></i>
+
+                  <div
+                    id="dropdown4"
+                    class="dropdown-menu megabar"
+                    aria-labelledby="megabarDropdown"
+                  >
+                    <div class="d-flex row justify-content-evenly mx-5 pb-3">
+                      <div class="div_data col-sm-6 col-lg-3">
+                        <h6 class="my-3">MEN</h6>
+                        <p class="text-left my-2">Footwear</p>
+                        <p class="text-left my-2">Clothing</p>
+                        <p class="text-left my-2">Accesories</p>
+                        <p class="text-left my-2">All Mens</p>
+                      </div>
+                      <div class="div_data col-sm-6 col-lg-3">
+                        <h6 class="my-3">WOMEN</h6>
+                        <p class="text-left my-2">Footwear</p>
+                        <p class="text-left my-2">Clothing</p>
+                        <p class="text-left my-2">Accesories</p>
+                        <p class="text-left my-2">All Women</p>
+                      </div>
+                      <div class="div_data col-sm-6 col-lg-3">
+                        <h6 class="my-3">BOYS</h6>
+                        <p class="text-left my-2">Footwear</p>
+                        <p class="text-left my-2">Accesories</p>
+                        <p class="text-left my-2">All Boys</p>
+                      </div>
+                      <div class="div_data col-sm-6 col-lg-3">
+                        <h6 class="my-3">GIRLS</h6>
+                        <p class="text-left my-2">Footwear</p>
+                        <p class="text-left my-2">All Girls</p>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+
+              <div class="d-flex justify-content-end w-50">
+                <div class="position-relative mx-5 ps-5 pe-4 w-50">
+                  <input
+                    class="f me-2 search_feild w-100 ms-4"
+                    type="search"
+                    placeholder="Search"
+                    aria-label="Search"
+                  />
+                  <i
+                    class="bi bi-search position-absolute top-0 end-0 me-2"
+                  ></i>
+                </div>
+                <div class="me-5">
+                  <i class="bi bi-person"></i>
+                </div>
+                <div class="me-5">
+                  <i class="bi bi-heart"></i>
+                </div>
+                <div class="pe-5 me-2 pe-2">
+                  <i class="bi bi-bag"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </nav>
+
+        <!-- navbar end -->
+      </div>
+
+      <!-- section starting -->
+    </div>
+    <section>
+      <div
+        id="carouselExampleAutoplaying"
+        class="carousel slide"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleAutoplaying"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleAutoplaying"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleAutoplaying"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleAutoplaying"
+            data-bs-slide-to="3"
+            aria-label="Slide 4"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleAutoplaying"
+            data-bs-slide-to="4"
+            aria-label="Slide 5"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              src="./assets/32--12172.avif"
+              class="d-block w-100"
+              alt="..."
+            />
+            <div class="carousel-caption d-none d-md-block"></div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="./assets/32--11326.avif"
+              class="d-block w-100"
+              alt="..."
+            />
+            <div class="carousel-caption d-none d-md-block"></div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="./assets/32--11895.avif"
+              class="d-block w-100"
+              alt="..."
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <!-- <h5>Second slide label</h5>
+            <p>Some representative placeholder content for the second slide.</p> -->
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="./assets/32--12035.avif"
+              class="d-block w-100"
+              alt="..."
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <!-- <h5>Third slide label</h5>
+            <p>Some representative placeholder content for the third slide.</p> -->
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="./assets/32--12105.avif"
+              class="d-block w-100"
+              alt="..."
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <!-- <h5>Third slide label</h5>
+            <p>Some representative placeholder content for the third slide.</p> -->
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleAutoplaying"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleAutoplaying"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+    <!-- next section -->
+    <section class="m-3">
+      <div class="row g-3">
+        <div class="col-12">
+          <h2 class="fw-bolder my-3">WHO ARE YOU SHOPPING FOR?</h2>
+        </div>
+
+        <div class="col-md-6">
+          <img src="./assets/32--12102.avif" width="99%" alt="" />
+        </div>
+        <div class="col-md-6">
+          <img src="./assets/32--12103.avif" width="99%" alt="" />
+        </div>
+      </div>
+    </section>
+
+    <!-- next section -->
+    <section class="mt-5">
+      <div class="col-12 ps-3">
+        <h2 class="fw-bolder">I AM THE NEW</h2>
+      </div>
+      <div class="bg-img mt-5"></div>
+    </section>
+    <section class="mt-5">
+      <div class="ps-3">
+        <h3 class="fw-bolder">WHAT,S HOT</h3>
+      </div>
+      <div class="row mx-3">
+        <div class="col-md-3 col-sm-6">
+          <div class="card border border-0">
+            <img src="./assets/32--11306.webp" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <div class="card_head card-title">Classic leather</div>
+              <p class="link_hover text-primary">Shop now</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-6">
+          <div class="card border border-0">
+            <img src="./assets/32--11130.avif" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <div class="card_head card-title">Running Shoes</div>
+              <p class="link_hover text-primary">Shop now</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-6">
+          <div class="card border border-0">
+            <img src="./assets/32--11307.webp" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <div class="card_head card-title">Performans &Style</div>
+              <p class="link_hover text-primary">Shop now</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-6">
+          <div class="card border border-0">
+            <img src="./assets/32--11340.webp" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <div class="card_head card-title">Slides</div>
+              <p class="link_hover text-primary">Shop now</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="mt-5">
+      <div class="ps-3">
+        <h3 class="fw-bolder mb-3">BEST OF SALES</h3>
+      </div>
+      <div class="row mx-3">
+        <div class="col-md-3 col-sm-6">
+          <div class="card border border-0">
+            <img
+              src="./assets/788748-9215268.avif"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <div class="card_data">
+                Unisex Reebok Training Act Core LL GR BP
+              </div>
+              <p class="card_data text-primary mt-1">
+                <span class="text-secondary">&#x20b9;1499.00</span>
+                <span class="text-body-tertiary">&#x20b9;1499.00</span>
+                <span class="text-danger">40%</span>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-6">
+          <div class="card border border-0">
+            <img
+              src="./assets/774356-8916861.avif"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <div class="card_data">
+                Unisex Reebok Training Essentials Logo Cap
+              </div>
+              <p class="card_data text-primary mt-1">
+                <span class="text-secondary">&#x20b9;979.00</span>
+                <span class="text-body-tertiary">&#x20b9;1399.00</span>
+                <span class="text-danger">30%</span>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-6">
+          <div class="card border border-0">
+            <img
+              src="./assets/781646-9058251.avif"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <div class="card_data">
+                Unisex Reebok Training Active Foundation Badge Cap
+              </div>
+              <p class="card_data text-primary mt-1">
+                <span class="text-secondary">&#x20b9;979.00</span>
+                <span class="text-body-tertiary">&#x20b9;1399.00</span>
+                <span class="text-danger">30%</span>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-6">
+          <div class="card border border-0">
+            <img
+              src="./assets/778307-9002905.avif"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <div class="card_data">
+                Unisex Reebok Training WOR Active Bp Bag
+              </div>
+              <p class="card_data text-primary mt-1">
+                <span class="text-secondary">&#x20b9;1499.00</span>
+                <span class="text-body-tertiary">&#x20b9;1499.00</span>
+                <span class="text-danger">40%</span>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="mt-5">
+      <div class="ps-3">
+        <h3 class="fw-bolder mb-3">RATED  SALES</h3>
+      </div>
+      <div class="d-flex justify-content-center px-3" style="max-height: 700px; overflow: hidden;">
+        <div class="d-flex justify-content-end align-items-center">
+          <span id="span_icon1" class="fs-1 pe-2 ">&#139;</span>
+        </div>
+        <div class="d-flex justify-content-between scroll_section">
+          <div class="slider_card mx-2" >
+            <div class="card border border-0">
+              <img
+                src="./assets/859393-10132571.avif"
+                class="card-img-top"
+                alt="..."
+
+              />
+              <div class="card-body">
+                <div class="card_data">
+                  Unisex Reebok Training Active Foundation Badge Cap
+                </div>
+                <p class="card_data text-primary mt-1">
+                  <span class="text-secondary">&#x20b9;979.00</span>
+                  <span class="text-body-tertiary">&#x20b9;1399.00</span>
+                  <span class="text-danger">30%</span>
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="slider_card mx-2" >
+            <div class="card border border-0">
+              <img
+                src="./assets/800275-9443925.avif"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <div class="card_data">
+                  Unisex Reebok Training Act Core LL GR BP
+                </div>
+                <p class="card_data text-primary mt-1">
+                  <span class="text-secondary">&#x20b9;1499.00</span>
+                  <span class="text-body-tertiary">&#x20b9;1499.00</span>
+                  <span class="text-danger">40%</span>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="slider_card mx-2" >
+            <div class="card border border-0">
+              <img
+                src="./assets/898327-10976589.avif"
+                class="card-img-top "
+                alt="..."
+
+              />
+              <div class="card-body">
+                <div class="card_data">
+                  Unisex Reebok Training Act Core LL GR BP
+                </div>
+                <p class="card_data text-primary mt-1">
+                  <span class="text-secondary">&#x20b9;1499.00</span>
+                  <span class="text-body-tertiary">&#x20b9;1499.00</span>
+                  <span class="text-danger">40%</span>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="slider_card mx-2" >
+            <div class="card border border-0">
+              <img
+                src="./assets/788748-9215268.avif"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <div class="card_data">
+                  Unisex Reebok Training Act Core LL GR BP
+                </div>
+                <p class="card_data text-primary mt-1">
+                  <span class="text-secondary">&#x20b9;1499.00</span>
+                  <span class="text-body-tertiary">&#x20b9;1499.00</span>
+                  <span class="text-danger">40%</span>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="slider_card mx-2" >
+            <div class="card border border-0">
+              <img
+                src="./assets/774356-8916861.avif"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <div class="card_data">
+                  Unisex Reebok Training Essentials Logo Cap
+                </div>
+                <p class="card_data text-primary mt-1">
+                  <span class="text-secondary">&#x20b9;979.00</span>
+                  <span class="text-body-tertiary">&#x20b9;1399.00</span>
+                  <span class="text-danger">30%</span>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="slider_card mx-2" >
+            <div class="card border border-0">
+              <img
+                src="./assets/781646-9058251.avif"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <div class="card_data">
+                  Unisex Reebok Training Active Foundation Badge Cap
+                </div>
+                <p class="card_data text-primary mt-1">
+                  <span class="text-secondary">&#x20b9;979.00</span>
+                  <span class="text-body-tertiary">&#x20b9;1399.00</span>
+                  <span class="text-danger">30%</span>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="slider_card mx-2" >
+            <div class="card border border-0">
+              <img
+                src="./assets/778307-9002905.avif"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <div class="card_data">
+                  Unisex Reebok Training WOR Active Bp Bag
+                </div>
+                <p class="card_data text-primary mt-1">
+                  <span class="text-secondary">&#x20b9;1499.00</span>
+                  <span class="text-body-tertiary">&#x20b9;1499.00</span>
+                  <span class="text-danger">40%</span>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="slider_card mx-2" >
+            <div class="card border border-0">
+              <img
+                src="./assets/859393-10132571.avif"
+                class="card-img-top"
+                alt="..."
+
+              />
+              <div class="card-body">
+                <div class="card_data">
+                  Unisex Reebok Training Active Foundation Badge Cap
+                </div>
+                <p class="card_data text-primary mt-1">
+                  <span class="text-secondary">&#x20b9;979.00</span>
+                  <span class="text-body-tertiary">&#x20b9;1399.00</span>
+                  <span class="text-danger">30%</span>
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="slider_card mx-2" >
+            <div class="card border border-0">
+              <img
+                src="./assets/800275-9443925.avif"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <div class="card_data">
+                  Unisex Reebok Training Act Core LL GR BP
+                </div>
+                <p class="card_data text-primary mt-1">
+                  <span class="text-secondary">&#x20b9;1499.00</span>
+                  <span class="text-body-tertiary">&#x20b9;1499.00</span>
+                  <span class="text-danger">40%</span>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="slider_card mx-2" >
+            <div class="card border border-0">
+              <img
+                src="./assets/898327-10976589.avif"
+                class="card-img-top "
+                alt="..."
+
+              />
+              <div class="card-body">
+                <div class="card_data">
+                  Unisex Reebok Training Act Core LL GR BP
+                </div>
+                <p class="card_data text-primary mt-1">
+                  <span class="text-secondary">&#x20b9;1499.00</span>
+                  <span class="text-body-tertiary">&#x20b9;1499.00</span>
+                  <span class="text-danger">40%</span>
+                </p>
+              </div>
+            </div>
+          </div>
+         
+
+         
+        </div>
+        <div class="d-flex justify-content-end align-items-center ps-2">
+          <span id="span_icon2" class="fs-1">&#155;</span>
+        </div>
+      </div>
+    </section>
+    
+   
+
+    <div
+      class="transport d-flex justify-content-evenly align-items-center p-3 flex-wrap text-white"
+    >
+      <div><i class="bi bi-truck"></i> All India free shipping</div>
+      <div><i class="bi bi-arrows-angle-contract"></i> 30 days return*</div>
+      <div><i class="bi bi-envelope"></i>happytohelp@reebok.in</div>
+    </div>
+
+    <div
+      class="d-flex justify-content-evenly flex-wrap p-5"
+      style="background-color: rgb(248, 248, 248)"
+    >
+      <div class="mb-3 footer_content">
+        <div class="fw-medium">MEN</div>
+        <p class="m-0 my-1">Footwear</p>
+        <p class="m-0 my-1">Clothing</p>
+        <p class="m-0 my-1">Accesories</p>
+        <p class="fw-medium m-0 my-3">WOMEN</p>
+        <p class="m-0 my-1">Footwear</p>
+        <p class="m-0 my-1">Clothing</p>
+        <p class="m-0 my-1">Accesories</p>
+      </div>
+
+      <div class="mb-3 footer_content">
+        <div class="fw-medium">ABOUT US</div>
+        <p class="m-0 my-1">Official Brand Store</p>
+        <p class="m-0 my-1">About us</p>
+        <p class="m-0 my-1">
+          Aditya Birla Fashion & <br />
+          Retail Ltd
+        </p>
+        <p class="m-0 my-1">
+          Size Guide For Footwear & <br />
+          Footwear
+        </p>
+      </div>
+      <div class="mb-3 footer_content">
+        <div class="fw-medium">QUICK SHOP</div>
+        <p class="m-0 my-1">Running</p>
+        <p class="m-0 my-1">Training</p>
+        <p class="m-0 my-1">Classics</p>
+        <p class="m-0 my-1">Walking</p>
+        <p class="m-0 my-1">Sales</p>
+        <p class="fw-medium m-0 my-3">NEW ARRIVALS</p>
+        <p class="m-0 my-1">New Arrivals</p>
+      </div>
+      <div class="mb-3 footer_content">
+        <div class="fw-medium">CUSTOMER SERVICE</div>
+        <p class="m-0 my-1">Contact Us</p>
+        <p class="m-0 my-1">My Accounts</p>
+        <p class="m-0 my-1">Privacy Policy</p>
+        <p class="m-0 my-1">Teams & Condition</p>
+        <p class="m-0 my-1">Offer Teams & Condition</p>
+
+        <p class="fw-medium m-0 my-2">FOLLOW US</p>
+        <div class="d-flex justify-content-start">
+          <div class="me-3"><i class="bi bi-facebook fs-2"></i></div>
+          <div class="me-3"><i class="bi bi-twitter fs-2"></i></div>
+          <div class="me-3"><i class="bi bi-instagram fs-2"></i></div>
+          <div class="me-3"><i class="bi bi-youtube fs-2"></i></div>
+        </div>
+      </div>
+    </div>
+    <hr class="m-0" />
+    <div class="d-flex flex-column justify-content-center align-items-center">
+      <img src="./assets//birlalogo.webp" alt="" />
+      <footer class="card_data my-3">
+        © 2018 Madura Fashion & Lifestyle A Division of Aditya Birla Fashion &
+        Retail Limited. All rights reserved.
+      </footer>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./script.js"></script>
+  </body>
+</html>

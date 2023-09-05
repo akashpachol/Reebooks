@@ -1,0 +1,154 @@
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --blue: rgb(36, 68, 150);
+}
+
+.top {
+  background-color: var(--blue);
+}
+.container-fluid {
+}
+.top > p,
+.small_heading {
+  font-size: 12px;
+}
+/* nav */
+.nav-item > a {
+  font-size: 14px;
+  cursor: pointer;
+}
+.search_feild {
+  border-left: none;
+  border-right: none;
+  border-top: none;
+  border-bottom: 0.5px solid black;
+}
+
+.nav-item i:nth-child(2) {
+  opacity: 0;
+  display: none;
+  transition: opacity 2s;
+}
+
+
+/* .megabar-dropdown:hover .megabar {
+  display: block;
+} */
+@media only screen and (max-width: 992px) {
+  .megabar-dropdown:hover .megabar {
+    display: none;
+  }
+  
+  
+  
+  
+}
+@media only screen and (min-width: 992px) {
+  
+  /* .nav-item:hover i:nth-child(1) {
+    opacity: 0;
+    display: none;
+  }
+  .nav-item:hover i:nth-child(2) {
+    opacity: 1;
+    display: inline;
+  } */
+  
+  
+  
+}
+.megabar {
+  display: none;
+
+  left: 0;
+  top: 100%;
+  background-color: #fff;
+  border: 1px solid #ccc;
+
+  width: 100%;
+}
+.div_data p,
+.nav_foot_data p {
+  font-size: 14px;
+  line-height: 16px;
+}
+.nav_foot_data p {
+  text-decoration: underline;
+}
+
+.div_data p:hover {
+  text-decoration: underline;
+}
+.carousel-indicators button {
+  width: 24px; /* Set the width */
+  height: 24px; /* Set the height */
+  border-radius: 12px; /* Make it circular */
+  background-color: #bbb; /* Change the background color */
+  margin: 0 4px; /* Adjust the spacing between indicators */
+  transition: background-color 0.3s ease; /* Add a smooth transition effect */
+}
+.carousel-indicators .active {
+  background-color: #333; /* Change the active indicator color */
+}
+.bg-img {
+  background-image: url(./assets/32--12107.avif);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 650px;
+  width: 100%;
+}
+.card_head,
+.link_hover {
+  font-size: 14px;
+}
+.card_head {
+  font-weight: 500;
+}
+.link_hover {
+  text-decoration: none;
+  color: var(--blue);
+}
+.link_hover:hover {
+  text-decoration: underline;
+}
+.card_data {
+  font-size: 12px;
+}
+.transport {
+  background-color: var(--blue);
+}
+.footer_content p {
+  font-size: 14px;
+}
+.footer_content p:hover {
+  text-decoration: underline;
+}
+.scroll_section {
+  overflow-x: auto;
+  white-space: nowrap; /* Prevent cards from wrapping to the next line */
+}
+
+.scroll_section::-webkit-scrollbar {
+  display: none;
+}
+
+.slider_card {
+  min-width: 24%;
+  position: relative; /* Change position to relative */
+  display: inline-block; /* Display cards in a row */
+  vertical-align: top;
+  max-height: 610px;
+}
+
+@media only screen and (max-width: 768px) {
+  .slider_card {
+    min-width: 49%;
+
+  }
+}
+#span_icon1,#span_icon2{
+cursor: pointer;
+}
